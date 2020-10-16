@@ -1,0 +1,15 @@
+server:
+  port: 8084
+
+
+eureka:
+  instance:
+    hostname: cloud-config-client
+    prefer-ip-address: true
+    lease-renewal-interval-in-seconds: 5
+    lease-expiration-duration-in-seconds: 15
+
+  client:
+    registry-fetch-interval-seconds: 5
+    service-url:
+      defaultZone: http://localhost:8001/eureka/
