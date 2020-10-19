@@ -4,7 +4,7 @@ server:
 
 eureka:
   instance:
-    hostname: cloud-config-client
+    hostname: cloud-config-client8084
     prefer-ip-address: true
     lease-renewal-interval-in-seconds: 5
     lease-expiration-duration-in-seconds: 15
